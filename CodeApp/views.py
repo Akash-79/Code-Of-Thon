@@ -4,7 +4,7 @@ from .models import *
 # Create your views here.
 
 def home(request):
-    return render(request,'home.html')
+    return render(request,'search.html')
 
 def quote_list(request):
     quoteList=quotes.objects.all()
